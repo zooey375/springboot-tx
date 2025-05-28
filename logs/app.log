@@ -1,0 +1,288 @@
+2025-05-27T10:18:51.169+08:00  INFO 12296 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : Starting SpringbootTxApplication using Java 21.0.6 with PID 12296 (C:\Users\NTPU\Desktop\CDRI-202504-master\springboot-tx\target\classes started by NTPU in C:\Users\NTPU\Desktop\CDRI-202504-master\springboot-tx)
+2025-05-27T10:18:51.170+08:00  INFO 12296 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T10:18:51.509+08:00  INFO 12296 --- [springboot-tx] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-27T10:18:51.524+08:00  INFO 12296 --- [springboot-tx] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2025-05-27T10:18:51.757+08:00  INFO 12296 --- [springboot-tx] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-05-27T10:18:51.766+08:00  INFO 12296 --- [springboot-tx] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T10:18:51.766+08:00  INFO 12296 --- [springboot-tx] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-27T10:18:51.795+08:00  INFO 12296 --- [springboot-tx] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T10:18:51.795+08:00  INFO 12296 --- [springboot-tx] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 596 ms
+2025-05-27T10:18:51.885+08:00  INFO 12296 --- [springboot-tx] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-27T10:18:51.911+08:00  INFO 12296 --- [springboot-tx] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-27T10:18:51.929+08:00  INFO 12296 --- [springboot-tx] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-27T10:18:52.082+08:00  INFO 12296 --- [springboot-tx] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-27T10:18:52.099+08:00  INFO 12296 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-27T10:18:52.195+08:00  INFO 12296 --- [springboot-tx] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16c5b50a
+2025-05-27T10:18:52.196+08:00  INFO 12296 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-27T10:18:52.251+08:00  INFO 12296 --- [springboot-tx] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.34
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-27T10:18:52.677+08:00  INFO 12296 --- [springboot-tx] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-27T10:18:52.727+08:00  INFO 12296 --- [springboot-tx] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T10:18:52.949+08:00  INFO 12296 --- [springboot-tx] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-05-27T10:18:52.953+08:00  INFO 12296 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : Started SpringbootTxApplication in 2.018 seconds (process running for 2.324)
+2025-05-27T10:22:20.139+08:00  INFO 12296 --- [springboot-tx] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-27T10:22:20.141+08:00  INFO 12296 --- [springboot-tx] [RMI TCP Connection(13)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-27T10:22:20.143+08:00  INFO 12296 --- [springboot-tx] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-27T10:22:20.145+08:00  INFO 12296 --- [springboot-tx] [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T10:22:20.146+08:00  INFO 12296 --- [springboot-tx] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-27T10:22:20.150+08:00  INFO 12296 --- [springboot-tx] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-27T10:22:21.406+08:00  INFO 2852 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : Starting SpringbootTxApplication using Java 21.0.6 with PID 2852 (C:\Users\NTPU\Desktop\CDRI-202504-master\springboot-tx\target\classes started by NTPU in C:\Users\NTPU\Desktop\CDRI-202504-master\springboot-tx)
+2025-05-27T10:22:21.407+08:00  INFO 2852 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T10:22:21.704+08:00  INFO 2852 --- [springboot-tx] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-27T10:22:21.716+08:00  INFO 2852 --- [springboot-tx] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2025-05-27T10:22:21.930+08:00  INFO 2852 --- [springboot-tx] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-05-27T10:22:21.939+08:00  INFO 2852 --- [springboot-tx] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T10:22:21.939+08:00  INFO 2852 --- [springboot-tx] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-27T10:22:21.965+08:00  INFO 2852 --- [springboot-tx] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T10:22:21.965+08:00  INFO 2852 --- [springboot-tx] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 536 ms
+2025-05-27T10:22:22.052+08:00  INFO 2852 --- [springboot-tx] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-27T10:22:22.079+08:00  INFO 2852 --- [springboot-tx] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-27T10:22:22.096+08:00  INFO 2852 --- [springboot-tx] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-27T10:22:22.250+08:00  INFO 2852 --- [springboot-tx] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-27T10:22:22.268+08:00  INFO 2852 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-27T10:22:22.357+08:00  INFO 2852 --- [springboot-tx] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d28cdcd
+2025-05-27T10:22:22.358+08:00  INFO 2852 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-27T10:22:22.401+08:00  INFO 2852 --- [springboot-tx] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.34
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-27T10:22:22.825+08:00  INFO 2852 --- [springboot-tx] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-27T10:22:22.851+08:00  INFO 2852 --- [springboot-tx] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T10:22:23.066+08:00  INFO 2852 --- [springboot-tx] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-05-27T10:22:23.070+08:00  INFO 2852 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : Started SpringbootTxApplication in 1.903 seconds (process running for 2.198)
+2025-05-27T10:25:09.890+08:00  INFO 9180 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : Starting SpringbootTxApplication using Java 21.0.6 with PID 9180 (C:\Users\NTPU\Desktop\CDRI-202504-master\springboot-tx\target\classes started by NTPU in C:\Users\NTPU\Desktop\CDRI-202504-master\springboot-tx)
+2025-05-27T10:25:09.891+08:00  INFO 9180 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T10:25:10.192+08:00  INFO 9180 --- [springboot-tx] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-27T10:25:10.204+08:00  INFO 9180 --- [springboot-tx] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2025-05-27T10:25:10.418+08:00  INFO 9180 --- [springboot-tx] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-05-27T10:25:10.427+08:00  INFO 9180 --- [springboot-tx] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T10:25:10.427+08:00  INFO 9180 --- [springboot-tx] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-27T10:25:10.458+08:00  INFO 9180 --- [springboot-tx] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T10:25:10.458+08:00  INFO 9180 --- [springboot-tx] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 547 ms
+2025-05-27T10:25:10.543+08:00  INFO 9180 --- [springboot-tx] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-27T10:25:10.569+08:00  INFO 9180 --- [springboot-tx] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-27T10:25:10.586+08:00  INFO 9180 --- [springboot-tx] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-27T10:25:10.738+08:00  INFO 9180 --- [springboot-tx] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-27T10:25:10.755+08:00  INFO 9180 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-27T10:25:10.846+08:00  INFO 9180 --- [springboot-tx] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@278fe428
+2025-05-27T10:25:10.847+08:00  INFO 9180 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-27T10:25:10.891+08:00  INFO 9180 --- [springboot-tx] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.34
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-27T10:25:11.317+08:00  INFO 9180 --- [springboot-tx] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-27T10:25:11.343+08:00  INFO 9180 --- [springboot-tx] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T10:25:11.557+08:00  WARN 9180 --- [springboot-tx] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-05-27T10:25:11.558+08:00  INFO 9180 --- [springboot-tx] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T10:25:11.559+08:00  INFO 9180 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-27T10:25:11.563+08:00  INFO 9180 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-27T10:25:11.569+08:00  INFO 9180 --- [springboot-tx] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-27T10:25:11.578+08:00 ERROR 9180 --- [springboot-tx] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8083 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8083 or configure this application to listen on another port.
+
+2025-05-27T10:50:24.627+08:00  INFO 2852 --- [springboot-tx] [RMI TCP Connection(36)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-27T10:50:24.628+08:00  INFO 2852 --- [springboot-tx] [RMI TCP Connection(36)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-27T10:50:24.631+08:00  INFO 2852 --- [springboot-tx] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-27T10:50:24.633+08:00  INFO 2852 --- [springboot-tx] [RMI TCP Connection(36)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T10:50:24.634+08:00  INFO 2852 --- [springboot-tx] [RMI TCP Connection(36)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-27T10:50:24.635+08:00  INFO 2852 --- [springboot-tx] [RMI TCP Connection(36)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-27T12:05:05.526+08:00  INFO 11568 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : Starting SpringbootTxApplication using Java 21.0.6 with PID 11568 (E:\WorkSpace\springboot-tx\target\classes started by NTPU in E:\WorkSpace\springboot-tx)
+2025-05-27T12:05:05.527+08:00  INFO 11568 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T12:05:05.844+08:00  INFO 11568 --- [springboot-tx] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-27T12:05:05.880+08:00  INFO 11568 --- [springboot-tx] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 3 JPA repository interfaces.
+2025-05-27T12:05:06.098+08:00  INFO 11568 --- [springboot-tx] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-05-27T12:05:06.107+08:00  INFO 11568 --- [springboot-tx] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T12:05:06.107+08:00  INFO 11568 --- [springboot-tx] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-27T12:05:06.132+08:00  INFO 11568 --- [springboot-tx] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T12:05:06.133+08:00  INFO 11568 --- [springboot-tx] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 581 ms
+2025-05-27T12:05:06.216+08:00  INFO 11568 --- [springboot-tx] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-27T12:05:06.240+08:00  INFO 11568 --- [springboot-tx] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-27T12:05:06.257+08:00  INFO 11568 --- [springboot-tx] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-27T12:05:06.406+08:00  INFO 11568 --- [springboot-tx] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-27T12:05:06.423+08:00  INFO 11568 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-27T12:05:06.514+08:00  INFO 11568 --- [springboot-tx] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74ce7fdf
+2025-05-27T12:05:06.515+08:00  INFO 11568 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-27T12:05:06.559+08:00  INFO 11568 --- [springboot-tx] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.34
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-27T12:05:06.963+08:00  INFO 11568 --- [springboot-tx] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-27T12:05:06.988+08:00  INFO 11568 --- [springboot-tx] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T12:05:07.104+08:00  INFO 11568 --- [springboot-tx] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-27T12:05:07.321+08:00  INFO 11568 --- [springboot-tx] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-05-27T12:05:07.325+08:00  INFO 11568 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : Started SpringbootTxApplication in 2.02 seconds (process running for 2.317)
+2025-05-27T12:05:07.392+08:00  INFO 11568 --- [springboot-tx] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-27T12:05:07.400+08:00 ERROR 11568 --- [springboot-tx] [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.Error: Unresolved compilation problem: 
+	The method getBookAmount(Integer) of type BookServiceImpl must override or implement a supertype method
+
+	at com.example.demo.service.impl.BookServiceImpl.getBookAmount(BookServiceImpl.java:29) ~[classes/:na]
+	at com.example.demo.service.impl.BookServiceImpl.reduceBookAmount(BookServiceImpl.java:41) ~[classes/:na]
+	at com.example.demo.service.impl.BuyServiceImpl.buyOneBook(BuyServiceImpl.java:23) ~[classes/:na]
+	at com.example.demo.TXCommandLineRunner.buyBook(TXCommandLineRunner.java:17) ~[classes/:na]
+	at com.example.demo.TXCommandLineRunner.run(TXCommandLineRunner.java:23) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:789) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.7.jar:6.2.7]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.7.jar:6.2.7]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.2.7.jar:6.2.7]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:797) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:788) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:773) ~[spring-boot-3.5.0.jar:3.5.0]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:773) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.5.0.jar:3.5.0]
+	at com.example.demo.SpringbootTxApplication.main(SpringbootTxApplication.java:10) ~[classes/:na]
+
+2025-05-27T12:05:07.403+08:00  INFO 11568 --- [springboot-tx] [main] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-27T12:05:07.406+08:00  INFO 11568 --- [springboot-tx] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-27T12:05:07.407+08:00  INFO 11568 --- [springboot-tx] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T12:05:07.408+08:00  INFO 11568 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-27T12:05:07.412+08:00  INFO 11568 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-27T12:17:22.255+08:00  INFO 1488 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : Starting SpringbootTxApplication using Java 21.0.6 with PID 1488 (E:\WorkSpace\springboot-tx\target\classes started by NTPU in E:\WorkSpace\springboot-tx)
+2025-05-27T12:17:22.256+08:00  INFO 1488 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T12:17:22.557+08:00  INFO 1488 --- [springboot-tx] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-27T12:17:22.593+08:00  INFO 1488 --- [springboot-tx] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 3 JPA repository interfaces.
+2025-05-27T12:17:22.812+08:00  INFO 1488 --- [springboot-tx] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-05-27T12:17:22.821+08:00  INFO 1488 --- [springboot-tx] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T12:17:22.821+08:00  INFO 1488 --- [springboot-tx] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-27T12:17:22.847+08:00  INFO 1488 --- [springboot-tx] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T12:17:22.847+08:00  INFO 1488 --- [springboot-tx] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 570 ms
+2025-05-27T12:17:22.928+08:00  INFO 1488 --- [springboot-tx] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-27T12:17:22.955+08:00  INFO 1488 --- [springboot-tx] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-27T12:17:22.971+08:00  INFO 1488 --- [springboot-tx] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-27T12:17:23.111+08:00  INFO 1488 --- [springboot-tx] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-27T12:17:23.126+08:00  INFO 1488 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-27T12:17:23.210+08:00  INFO 1488 --- [springboot-tx] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@329b331f
+2025-05-27T12:17:23.211+08:00  INFO 1488 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-27T12:17:23.252+08:00  INFO 1488 --- [springboot-tx] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.34
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-27T12:17:23.647+08:00  INFO 1488 --- [springboot-tx] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-27T12:17:23.675+08:00  INFO 1488 --- [springboot-tx] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T12:17:23.792+08:00  INFO 1488 --- [springboot-tx] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-27T12:17:24.040+08:00  INFO 1488 --- [springboot-tx] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-05-27T12:17:24.044+08:00  INFO 1488 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : Started SpringbootTxApplication in 2.006 seconds (process running for 2.302)
+2025-05-27T12:19:02.537+08:00  INFO 1488 --- [springboot-tx] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-27T12:19:02.539+08:00  INFO 1488 --- [springboot-tx] [RMI TCP Connection(11)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-27T12:19:02.541+08:00  INFO 1488 --- [springboot-tx] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-27T12:19:02.543+08:00  INFO 1488 --- [springboot-tx] [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T12:19:02.544+08:00  INFO 1488 --- [springboot-tx] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-27T12:19:02.548+08:00  INFO 1488 --- [springboot-tx] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-27T12:19:03.783+08:00  INFO 5260 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : Starting SpringbootTxApplication using Java 21.0.6 with PID 5260 (E:\WorkSpace\springboot-tx\target\classes started by NTPU in E:\WorkSpace\springboot-tx)
+2025-05-27T12:19:03.784+08:00  INFO 5260 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T12:19:04.081+08:00  INFO 5260 --- [springboot-tx] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-27T12:19:04.115+08:00  INFO 5260 --- [springboot-tx] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 3 JPA repository interfaces.
+2025-05-27T12:19:04.330+08:00  INFO 5260 --- [springboot-tx] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-05-27T12:19:04.340+08:00  INFO 5260 --- [springboot-tx] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T12:19:04.340+08:00  INFO 5260 --- [springboot-tx] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-27T12:19:04.367+08:00  INFO 5260 --- [springboot-tx] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T12:19:04.367+08:00  INFO 5260 --- [springboot-tx] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 562 ms
+2025-05-27T12:19:04.451+08:00  INFO 5260 --- [springboot-tx] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-27T12:19:04.479+08:00  INFO 5260 --- [springboot-tx] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-27T12:19:04.497+08:00  INFO 5260 --- [springboot-tx] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-27T12:19:04.639+08:00  INFO 5260 --- [springboot-tx] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-27T12:19:04.655+08:00  INFO 5260 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-27T12:19:04.742+08:00  INFO 5260 --- [springboot-tx] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@329b331f
+2025-05-27T12:19:04.743+08:00  INFO 5260 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-27T12:19:04.786+08:00  INFO 5260 --- [springboot-tx] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.34
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-27T12:19:05.186+08:00  INFO 5260 --- [springboot-tx] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-27T12:19:05.211+08:00  INFO 5260 --- [springboot-tx] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T12:19:05.326+08:00  INFO 5260 --- [springboot-tx] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-27T12:19:05.575+08:00  INFO 5260 --- [springboot-tx] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-05-27T12:19:05.579+08:00  INFO 5260 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : Started SpringbootTxApplication in 2.016 seconds (process running for 2.314)
+2025-05-27T12:19:19.911+08:00  INFO 5260 --- [springboot-tx] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-27T12:19:19.913+08:00  INFO 5260 --- [springboot-tx] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-27T12:19:19.915+08:00  INFO 5260 --- [springboot-tx] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-27T12:19:19.917+08:00  INFO 5260 --- [springboot-tx] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T12:19:19.918+08:00  INFO 5260 --- [springboot-tx] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-27T12:19:19.922+08:00  INFO 5260 --- [springboot-tx] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-27T12:19:21.156+08:00  INFO 1404 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : Starting SpringbootTxApplication using Java 21.0.6 with PID 1404 (E:\WorkSpace\springboot-tx\target\classes started by NTPU in E:\WorkSpace\springboot-tx)
+2025-05-27T12:19:21.158+08:00  INFO 1404 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T12:19:21.451+08:00  INFO 1404 --- [springboot-tx] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-27T12:19:21.487+08:00  INFO 1404 --- [springboot-tx] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 3 JPA repository interfaces.
+2025-05-27T12:19:21.703+08:00  INFO 1404 --- [springboot-tx] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-05-27T12:19:21.711+08:00  INFO 1404 --- [springboot-tx] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T12:19:21.712+08:00  INFO 1404 --- [springboot-tx] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-27T12:19:21.737+08:00  INFO 1404 --- [springboot-tx] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T12:19:21.738+08:00  INFO 1404 --- [springboot-tx] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 560 ms
+2025-05-27T12:19:21.824+08:00  INFO 1404 --- [springboot-tx] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-27T12:19:21.848+08:00  INFO 1404 --- [springboot-tx] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-27T12:19:21.866+08:00  INFO 1404 --- [springboot-tx] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-27T12:19:22.011+08:00  INFO 1404 --- [springboot-tx] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-27T12:19:22.028+08:00  INFO 1404 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-27T12:19:22.119+08:00  INFO 1404 --- [springboot-tx] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@329b331f
+2025-05-27T12:19:22.120+08:00  INFO 1404 --- [springboot-tx] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-27T12:19:22.164+08:00  INFO 1404 --- [springboot-tx] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.34
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-27T12:19:22.570+08:00  INFO 1404 --- [springboot-tx] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-27T12:19:22.595+08:00  INFO 1404 --- [springboot-tx] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T12:19:22.719+08:00  INFO 1404 --- [springboot-tx] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-27T12:19:22.968+08:00  INFO 1404 --- [springboot-tx] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-05-27T12:19:22.972+08:00  INFO 1404 --- [springboot-tx] [main] c.example.demo.SpringbootTxApplication   : Started SpringbootTxApplication in 2.035 seconds (process running for 2.332)
+2025-05-27T15:47:45.136+08:00  INFO 1404 --- [springboot-tx] [RMI TCP Connection(219)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-27T15:47:45.137+08:00  INFO 1404 --- [springboot-tx] [RMI TCP Connection(219)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-27T15:47:45.139+08:00  INFO 1404 --- [springboot-tx] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-27T15:47:45.141+08:00  INFO 1404 --- [springboot-tx] [RMI TCP Connection(219)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T15:47:45.142+08:00  INFO 1404 --- [springboot-tx] [RMI TCP Connection(219)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-27T15:47:45.144+08:00  INFO 1404 --- [springboot-tx] [RMI TCP Connection(219)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
